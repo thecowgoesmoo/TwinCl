@@ -6,13 +6,49 @@ n_keys = 61;        //number of keys
 //Length of lowest string (uniform gauge at present)
 L0 = 48*25.4;       //Baseline string length
 skew = 15;          //String skew angle
-str_backlen = 200;
+str_backlen = 116;//200;
 strikeLine_y = 0;
 strikeLine_z = 0;
 anvil_action_h = 0;//2;
 pivot_hole_inset = 100;
 chassis_height = 12.8;
 bolt_size = 3;
+
+//Rendering:
+//keybed_rails();
+case();
+strings();
+harp();
+//keys();
+//stringBlocks();
+//keybed_rails();
+customGrid(1000,10);
+customGridR(1000,100);
+//customGridYZ(1000,10);
+
+// Example of a custom grid structure
+module customGrid(size, spacing) {
+    for (i = [-size : spacing : size]) {
+        color("lime") translate([i, -size, 0]) cube([1, 2*size, 1]); // Adjust as needed
+        color("lime") translate([-size, i, 0]) cube([2*size, 1, 1]); // Adjust as needed
+    }
+}
+
+module customGridYZ(size, spacing) {
+    for (i = [-size : spacing : size]) {
+        color("lime") translate([0, -size, i]) cube([1, 2*size, 1]); // Adjust as needed
+        color("lime") translate([0, i, -size]) cube([1, 1, 2*size]); // Adjust as needed
+    }
+}
+
+// Example of a custom grid structure
+module customGridR(size, spacing) {
+    for (i = [-size : spacing : size]) {
+        color("red") translate([i, -size, 0]) cube([1, 2*size, 1]); // Adjust as needed
+        color("red") translate([-size, i, 0]) cube([2*size, 1, 1]); // Adjust as needed
+    }
+}
+
 
 // --- NEW MODULE: Keybed Support Rails ---
 module keybed_rails() {
@@ -52,10 +88,10 @@ module keybed_rails() {
     guide_y_global = -95 + 40+35; // Approx 40mm in from front of chassis
     
     // The Rail Base
-    color("SaddleBrown")
+    color("SaddleBrown",0.8)
     translate([x_start, guide_y_global - 10-40, 10.5])
         cube([bed_len, 50, 17]); // Stops just below key bottom (Z=15)
-    color("SaddleBrown")
+    color("SaddleBrown",1.0)
     translate([x_start, guide_y_global - 10-40, 10.5-3])
         cube([bed_len, 330, 3]); // Stops just below key bottom (Z=15)    
     // The Guide Pins (Visual representation)
@@ -68,10 +104,10 @@ module keybed_rails() {
 }
 
 // Render the Rails
-keybed_rails();
+//keybed_rails();
 
 // --- STRING GENERATION ---
-
+module strings(){
 for (i = [0:1:(n_keys-1)]){
     //    //Da stringz:
     //    //Manage gauge changes and their length impacts:
@@ -89,24 +125,31 @@ for (i = [0:1:(n_keys-1)]){
  	]);
     strLen = lenMult * L0 * 2^(-i/12);
     translate([i*13.75,0+strikeLine_y,0+strikeLine_z]) rotate([0,90,skew]) cylinder(strLen,1,1);
-    //translate([i*13.75,0+strikeLine_y,0+strikeLine_z]) rotate([0,90,skew+180]) cylinder(str_backlen,1,1);
+    translate([i*13.75,0+strikeLine_y,0+strikeLine_z]) rotate([0,90,skew+180]) cylinder(str_backlen,1,1);
     osetX = (i%3)*15;
     pinXpos = 885+osetX;
     pinYpos = (pinXpos-i*13.75)*tan(skew);
     translate([pinXpos,pinYpos,-20]) cylinder(40,3,3);
 }
+}
+
+module case(){
 //Case bottom:
 color("brown",0.6) translate([-230+100+30,-100+20,-12.5-38]) cube([900+154-30,210+160,12.5]);
 
 //Case top:
-color("brown",0.6) translate([-230+100+30,-100+20+160,-12.5-38+100]) cube([900+154-30-55,210+160-160,12.5]);
+//color("brown",0.6) translate([-230+100+30,-100+20+160,-12.5-38+100]) cube([900+154-30-55,210+160-160,12.5]);
 
 //Case back:
-color("brown",0.6) translate([-230+100+30,-100+20+160+200,-50]) cube([900+154-30,10,100]);
+//color("brown",0.6) translate([-230+100+30,-100+20+160+200,-50]) cube([900+154-30,10,100]);
 
 //Case front:
-color("brown",0.6) translate([-230+100+30,-100+20,-50]) cube([900+154-30,10,90]);
+//color("brown",0.6) translate([-230+100+30,-100+20,-50]) cube([900+154-30,10,90]);
+}
 
+//case();
+
+module harp(){
 //Steel harp frame.
 //Combination front rail & anvil:
 color("gray",1.0) translate([0,0+strikeLine_y,-0+strikeLine_z-anvil_action_h-38]) rotate([90,0,0]) translate([-100,0,0]) difference(){
@@ -121,14 +164,19 @@ color("gray",1.0) translate([870,0+strikeLine_y,-0+strikeLine_z-anvil_action_h-3
 //Skew-side harp frame:
 color("gray",1.0) translate([-22,0+strikeLine_y,0+strikeLine_z-38]) rotate([0,0,skew]) translate([-110+40,0,0]) difference(){
     cube([1035,38,38]);
-    translate([-1+40,2.6,2.6]) cube([1035+2,38,38]);
+    translate([-41+40,2.6,2.6]) cube([1035+2,38,38]);
+}
 }
 
+module stringBlocks(){
 //Tuner pin block:
-color("brown",0.8) translate([0-230+150,-30-22,-30]) cube([750,30,30]);
+color("brown",0.8) translate([0-230+150,-30-22-18,-30-8]) cube([950,67.5,35+0]);
+ color("brown",0.8) translate([0-230+150,-30-22-18,-30-8]) cube([950,40,46]);
 //Block for ball-ends and bridges:
 //color("brown",0.8) translate([700-80-100,0,-30]) cube([350,220,30]);
 color("brown",0.8) translate([900-27,0,-35.4]) cube([2*25.4,250,35.4]);
+color("brown",0.8) translate([0-230+150,220,-30-8]) cube([950,40,46]);
+}
 
 //
 // Standard Piano Dimensions
@@ -151,6 +199,7 @@ white_key_width = 23.5;
 //    5.65,   // 10: A# (Black)
 //    6       // 11: B  (White)
 //];
+module keys(){
 octave_offsets = [
     0,      // 0: C  (White)
     7/12,    // 1: C# (Black) - shifted right
@@ -189,4 +238,5 @@ for (i = [0:1:(n_keys-1)]){
     // 4. Strings (Already generated above, but loop logic was duplicated in original file. 
     // I've left the original loop at the top and this loop at the bottom per your file structure,
     // but ensured this loop uses the uniform 13.75 spacing for keys as requested).
+}
 }
