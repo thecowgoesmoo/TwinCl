@@ -1,3 +1,4 @@
+include <irkem_TPUtip_v1.scad>
 tol = 0.2;
 extrWall = 1.7+tol;
 extrH = 12.9+tol;//12.6+tol;
@@ -30,6 +31,8 @@ difference(){
     translate([-extrW/2+extrWall,-hammerY/2,-extrH-extrWall]) cube([extrW-2*extrWall,hammerY,extrH]);
 }
 }
+color("gray") translate([0,-5,23]) rotate([0,180,0]) TPUtip();
 }
 
-hammerTips();
+//hammerTips();
+//color("gray") translate([0,-5,23]) rotate([0,180,0]) TPUtip();

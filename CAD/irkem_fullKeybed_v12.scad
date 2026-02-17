@@ -1,7 +1,7 @@
 include <irkem_clavinetKey_v9_UChannel.scad>
 include <irkem_keycaps_v2.scad>
 cap_w = 22+2;       //White key width
-n_keys = 61;        //number of keys
+n_keys = 60;        //number of keys
 //chassis_length = 270;
 //Length of lowest string (uniform gauge at present)
 L0 = 48*25.4;       //Baseline string length
@@ -13,6 +13,9 @@ anvil_action_h = 0;//2;
 pivot_hole_inset = 100;
 chassis_height = 12.8;
 bolt_size = 3;
+anvW = 25.4/8;
+anvL = 15;//25.4*1;
+anvH = 25.4/8;
 
 //Rendering:
 //case();
@@ -20,12 +23,13 @@ strings();
 harp();
 keys();
 stringBlocks();
-keybed_rails();
-//customGrid(1000,10);
-//customGridR(1000,100);
+translate([-10-27,0,0]) keybed_rails();
+anvils();
+customGrid(1000,10);
+customGridR(1000,100);
 customGridYZ(1000,10);
-pickups();
-damper();
+//pickups();
+//damper();
 //controls();
 
 // Example of a custom grid structure
@@ -51,6 +55,16 @@ module customGridR(size, spacing) {
     }
 }
 
+module anvils(){
+    for (i = [-1:1:(n_keys-2)]){
+        translate([13.75*i-13.75-1,-6,-9.3+4]) rotate([0,0,-75]) rotate([15,0,0]) translate([0,-3,0]) cube([anvW,anvL,anvH]);
+    }
+    //color("brown") translate([0,-50,-7]) cube([840,50,3]);
+    //color("gray") translate([0,-50,-10]) cube([840,50,3]);
+    //color("brown") translate([0,-50,-3]) cube([840,50,3]);
+    color("brown") translate([0,-50,-6]) cube([840,50,3]);
+    color("gray",alpha=0.9) translate([0,-50,-9]) cube([840,50,3]);
+}
 
 module pickups(){
     //Movable pickup angle:
@@ -81,7 +95,7 @@ module controls(){
 module keybed_rails() {
     // Calculate total length of the bed
     bed_len = n_keys * 13.75 + 40;
-    x_start = -20; // Start slightly to the left of the first key
+    x_start = -20+7; // Start slightly to the left of the first key
     
     // 1. FULCRUM RAIL (Pivot Support)
     // ------------------------------------------------
@@ -128,6 +142,10 @@ module keybed_rails() {
     //    translate([k*13.75, guide_y_global, 14])
     //        cylinder(r=2, h=8); // Pins sticking up
     //}
+    
+    //4. SIDE RAILS
+    translate([x_start,-70,10.5]) cube([20,330,17]);
+    translate([x_start+bed_len-13.75*1.4-0.5,-70,10.5]) cube([20,330,17]);
 }
 
 // Render the Rails
@@ -207,12 +225,16 @@ color("gray",1.0) translate([-22,0+strikeLine_y,0+strikeLine_z-38]) rotate([0,0,
 
 module stringBlocks(){
 //Tuner pin block:
-color("brown",0.8) translate([0-230+150,-30-22-18,-30-8]) cube([950,67.5,35+0]);
- color("brown",0.8) translate([0-230+150,-30-22-18,-30-8]) cube([950,40,46]);
+//color("brown",0.8) translate([0-230+150,-30-22-18,-30-8]) cube([950,67.5,35+0]);
+//color("brown",0.8) translate([0-230+150,-30-22-18,-30-8]) cube([950,40,46]);
+color("brown",0.8) translate([0-230+150,-30-22-18,-30-8]) cube([950,67.5,28+4-3]);
+color("brown",0.8) translate([0-230+150,-30-22-18,-30-8]) cube([950,40,46]);
 //Block for ball-ends and bridges:
 //color("brown",0.8) translate([700-80-100,0,-30]) cube([350,220,30]);
-color("brown",0.8) translate([900-27,0,-35.4]) cube([2*25.4,250,35.4]);
-color("brown",0.8) translate([0-230+150,220,-30-8]) cube([950,40,46]);
+//color("brown",0.8) translate([900-27,0,-35.4]) cube([2*25.4,250,35.4]);
+//color("brown",0.8) translate([0-230+150,220,-30-8]) cube([950,40,46]);
+color("brown",0.8) translate([900-27,0,-35.4]) cube([2*25.4,250,35.4-3]);
+color("brown",0.8) translate([0-230+150,220-30,-30-8]) cube([620,40,46]);//cube([950,40,46]);
 }
 
 //
@@ -251,6 +273,7 @@ octave_offsets = [
     70/12,   // 10: A# (Black)
     77/12       // 11: B  (White)
 ];
+    fullOset = -13.75*1.7;
 for (i = [0:1:(n_keys-1)]){
     // 1. Calculate Octave and Note Index
     octave = floor(i / 12);
@@ -260,7 +283,7 @@ for (i = [0:1:(n_keys-1)]){
     // Position = (Octaves * 7 * width) + (Note Offset * width)
     // NOTE: User has requested Uniform Mechanical Spacing of 13.75
     // so we use simple linear spacing for the mechanics:
-    pos_x = i * 13.75;
+    pos_x = i * 13.75 + fullOset;
 
     // 3. Generate Keys
     // WHITE KEYS

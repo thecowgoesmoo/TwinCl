@@ -1,7 +1,7 @@
-include <irkem_hammerTips_v0.scad>
+include <irkem_hammerTips_v2.scad>
 
-xO = -6;
-yO = -11;
+xO = -6-13.75*1-10+0.3;
+yO = -13-0.5;
 zO = 40;
 
 kH = 4;
