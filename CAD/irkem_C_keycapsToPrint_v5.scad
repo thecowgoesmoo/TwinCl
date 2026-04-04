@@ -1,10 +1,11 @@
-include <irkem_hammerTips_v0.scad>
+//include <irkem_hammerTips_v0.scad>
+include <snap_lock_v1.scad>
 
 xO = -6;
 yO = -11;
 zO = 40;
 
-kH = 8;//4;
+kH = 10;//4;
 bH = 10;
 wL = 50;
 bL = 80;
@@ -18,7 +19,7 @@ sharpFlag = 1;
 
 for (k = [0]){//:1:(n_keys-1)]){
     //
-    translate([k*13.75+6.0+xO,12+yO,-12.5+zO]) rotate([0,180,0]) hammerTips();
+    //translate([k*13.75+6.0+xO,12+yO,-12.5+zO]) rotate([0,180,0]) hammerTips();
 }
 
 for (k = [0:1:(n_oct-1)]){
@@ -27,6 +28,8 @@ for (k = [0:1:(n_oct-1)]){
 color("ivory") translate([k*oct+0+xO,0+yO,0+zO]) cube([oct*1/12-gap,bL,kH]);
 color("ivory") translate([k*oct+0+xO,-wL+yO,0+zO]) cube([oct*1/7-gap,wL,kH]);
 
+translate([0-0.2,-3+13,44-1.8-2]) rotate([-90,0,0]) snap();
+translate([0-0.2,65,44-1.8-2]) rotate([-90,0,0]) snap();
 ////C#:
 //if (sharpFlag){    
 //color("black") translate([k*oct+oct*1/12+xO,gap+yO,0+zO]) cube([oct*1/12-gap,bL,kH+bH]);
@@ -82,7 +85,7 @@ color("ivory") translate([k*oct+0+xO,-wL+yO,0+zO]) cube([oct*1/7-gap,wL,kH]);
 }
 
 for (i = [0]){//,2,4,5,7,9,11]){//[0:1:(n_keys-1)]){
-    translate([oset+oct*i/12+(oct*1/12-6.2)/2+xO,2+10+yO,-10+zO]) cube([6.2,bL-10,10]);
+    translate([oset+oct*i/12+(oct*1/12-6.2)/2+xO,2+10+yO+12+3,-10+zO]) cube([6.2,bL-10-7-12-4,10]);
 }
 
 //if (sharpFlag){
