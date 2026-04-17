@@ -1,0 +1,4 @@
+# Requirement: 1.5 V RMS output amplitude during typical play
+# Method: TODO (e.g. oscilloscope or audio interface RMS measurement, typical playing dynamics)
+measurement_id,pickup_config,note_played,amplitude_VRMS,notes
+# pickup_config: neck_only | bridge_only | both_in_phase | both_out_of_phase

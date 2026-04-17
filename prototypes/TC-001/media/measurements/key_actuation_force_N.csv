@@ -1,0 +1,4 @@
+# Requirement: keys play with 0.5 N of force
+# Method: TODO (e.g. postal scale under key at full travel)
+key_number,key_note,force_N,notes
+# TODO: 60 rows, one per key (key 1 = F1, key 60 = E6)

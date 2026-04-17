@@ -1,0 +1,83 @@
+id: TC-001
+status: completed
+date_built: "2026-01"  # TODO: confirm — git log shows key cap files committed 2026-01-31
+description: "First complete TwinCl prototype — wooden chassis, flat harp plate, aluminum extrusion key rails"
+git_tag: proto/TC-001  # TODO: create once file list is confirmed
+
+photos:
+  - media/photos/TwinCl_v1.jpeg
+  - media/photos/TwinCl_v1_open.jpeg
+  - media/photos/early_acoustic_play_test.jpeg
+  - media/photos/harp_stringing.jpeg
+  - media/photos/HarpV2_weldDetail.jpeg      # HarpV2 being fabricated concurrent with this build
+  - media/photos/keybed_to_harp_alignment.jpeg
+  - media/photos/octave_keyChassis_mockup.jpeg
+  - media/photos/TwinCl_Render.png
+
+notes: |
+  Chassis: Wood (plywood deck + dimensional lumber frame), no welded steel.
+  Harp: Flat plate structure with drilled wooden string pin block — not a welded
+    U-channel. No corresponding CAD file identified; may have been hand-laid-out.
+    (HarpV2_weldDetail photo shows the blue U-channel being fabricated around this
+    same time, likely for TC-002.)
+  Keywork: Aluminum extrusion key rails with laser-cut toothed combs. Orange printed
+    natural keycaps, black printed accidentals.
+  String end: Drilled wooden block — no printed PrStrEndBlck used.
+  Electronics: None installed in this build.
+  Tuning: Manual tuning pins only, no fine-tuner device.
+
+files:
+  # === CAD / DESIGN SOURCE ===
+  - path: CAD/irkem_clavinetKey_v9_UChannel.scad
+    sha: TODO
+    notes: "Key body design (natural + accidental profiles)"
+
+  - path: CAD/irkem_fullKeybed_v12.scad
+    sha: TODO
+    notes: "Full keybed assembly script"
+
+  - path: CAD/irkem_qaxinet_v0.scad      # UNCERTAIN: earliest qaxinet version; may not match flat-plate harp
+    sha: TODO
+    notes: "Harp frame design (if CAD was used for this build)"
+
+  # === 3D PRINTED PARTS ===
+  - path: print_files/irkem_A_keycapsToPrint_v2.stl
+    sha: TODO
+    notes: "Natural A keycaps"
+  - path: print_files/irkem_B_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_C_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_D_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_E_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_F_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_G_keycapsToPrint_v2.stl
+    sha: TODO
+
+  - path: print_files/irkem_sharpKeycaps_v0.stl   # UNCERTAIN: confirm this was the accidental used vs irkem_accKeycap_v3
+    sha: TODO
+    notes: "Accidental (sharp/flat) keycaps"
+
+  - path: CAD/irkem_hammerTips_v2.scad
+    sha: TODO
+    notes: "Hammer tip pads on each key (v2 STL not archived in print_files; printed from this source)"
+
+  # === LASER CUT PARTS ===
+  - path: laser_cut_files/irkem_clavinet_keyCombs_v5.svg   # UNCERTAIN: may be TC-002 era; earlier version may have been cut
+    sha: TODO
+    notes: "Toothed key rail combs (aluminum extrusion tooth pattern)"
+
+  - path: laser_cut_files/irkem_clavinet_strComb_v0.svg   # UNCERTAIN: earliest string comb version
+    sha: TODO
+    notes: "String spacing comb at harp"
+
+  - path: laser_cut_files/irkem_anvilAlgn_v0.svg   # UNCERTAIN: v0 vs v1 vs v2
+    sha: TODO
+    notes: "Anvil alignment template"
+
+  - path: laser_cut_files/irkem_strikeAlignTemplate_v0.svg
+    sha: TODO
+    notes: "Strike point alignment template"

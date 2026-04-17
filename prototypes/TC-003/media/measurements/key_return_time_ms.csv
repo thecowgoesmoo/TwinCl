@@ -1,0 +1,4 @@
+# Requirement: keys return within 100 ms of release
+# Method: TODO (e.g. high-speed video or contact switch timing)
+key_number,key_note,return_time_ms,notes
+# TODO: 60 rows, one per key

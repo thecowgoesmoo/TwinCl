@@ -1,0 +1,3 @@
+# Requirement: output from 100 Hz to 10 kHz
+# Method: TODO (e.g. swept sine or pink noise playback through strings, FFT of pickup output)
+measurement_id,pickup_config,frequency_Hz,amplitude_dBV,notes

@@ -21,7 +21,7 @@ anvH = 25.4/8;
 //case();
 strings();
 harp();
-//translate([0,-200,0]) keys();
+translate([0,-200,0]) keys();
 stringBlocks();
 //translate([0,-200,0]) translate([-10-27,0,0]) keybed_rails();
 anvils();

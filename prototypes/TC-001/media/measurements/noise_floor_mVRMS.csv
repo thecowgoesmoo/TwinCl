@@ -1,0 +1,4 @@
+# Requirement: 60 Hz and 120 Hz noise amplitude < 50 mV RMS
+# Method: TODO (e.g. FFT of output signal while instrument is idle, no strings played)
+measurement_id,pickup_config,frequency_Hz,amplitude_mVRMS,notes
+# pickup_config: neck_only | bridge_only | both_in_phase | both_out_of_phase

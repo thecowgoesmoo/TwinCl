@@ -1,0 +1,3 @@
+# Requirement: keywork makes less than 50 dBA during play (excluding string noise)
+# Method: TODO (e.g. calibrated microphone at 1m, damped strings, playing at normal velocity)
+measurement_id,condition,distance_m,level_dBA,notes

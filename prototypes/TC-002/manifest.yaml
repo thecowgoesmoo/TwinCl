@@ -1,0 +1,114 @@
+id: TC-002
+status: completed
+date_built: "2026-03"  # git log: "TwinCl v2 design files and photos" committed 2026-03-11
+description: "Second TwinCl prototype — blue welded steel HarpV2, printed string end block, CST pickup, SupahTunah fine tuner"
+git_tag: proto/TC-002  # TODO: create once file list is confirmed
+
+photos:
+  - media/photos/TwinCl_v2_leftSide.jpeg
+  - media/photos/TwinCl_v2_rightSide.jpeg
+  - media/photos/TwinCl_v2_KeyworkDetail.jpeg
+  - media/photos/TwinCl_v2_stringEnds.jpeg
+  - media/photos/TwinCl_v2_CSTbasedPickup.jpeg
+  - media/photos/TwinCl_v2_earPlugMutes.jpeg
+  - media/photos/TwinCl_v2_HarpAndBlockPlayout.jpeg
+  - media/photos/TwinCl_v2_HarpPUaccessCut.jpeg
+  - media/photos/HarpV2.jpeg
+  - media/photos/SupahTunah.jpeg
+
+notes: |
+  Harp: Blue powder-coated/painted welded steel triangular U-channel (HarpV2).
+    Rectangular access cutout added to harp side for pickup adjustment.
+    Wooden string-pitch block inside harp with pin layout.
+  String end: Printed black PrStrEndBlck_v0 block with multi-hole string routing,
+    visible at keyboard end (TwinCl_v2_stringEnds.jpeg).
+  Keywork: Orange natural keycaps, black accidentals. Pivot/upstop laser-cut combs
+    visible at key front. Printed string guides along key sides.
+  Pickup: CST-based bar pickup wrapped in black tape (handmade, no dedicated file).
+    Wiring visible in TwinCl_v2_CSTbasedPickup.jpeg.
+  Mutes: Foam ear-plug dampers threaded between strings at strike line.
+  Tuning: "SupahTunah" device — laser-cut aluminum L-bracket with two threaded
+    tuning pins and a clock-key drive (SupahTunah.jpeg). Likely irkem_notATunah_v0.scad
+    or a related design; confirm file.
+  Electronics: Test wiring visible; no PCB/preamp installed.
+
+files:
+  # === CAD / DESIGN SOURCE ===
+  - path: CAD/irkem_clavinetKey_v9_UChannel.scad
+    sha: TODO
+    notes: "Key body design"
+
+  - path: CAD/irkem_fullKeybed_v20.scad
+    sha: TODO
+    notes: "Full keybed assembly"
+
+  - path: CAD/irkem_qaxinet_v1.scad   # UNCERTAIN: v1 vs v2 for the blue HarpV2 frame
+    sha: TODO
+    notes: "Blue welded steel U-channel harp frame (HarpV2)"
+
+  # irkem_notATunah_v0.scad is NOT part of this build — it is a stub for a future
+  # automated CNC tuning robot and has never been fabricated.
+  # The "SupahTunah" visible in photos is a hand-fabricated laser-cut aluminum device,
+  # not derived from a repo file. TODO: create a design file for it if not already done.
+
+  # === 3D PRINTED PARTS ===
+  - path: print_files/irkem_A_keycapsToPrint_v2.stl
+    sha: TODO
+    notes: "Natural A keycaps"
+  - path: print_files/irkem_B_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_C_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_D_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_E_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_F_keycapsToPrint_v2.stl
+    sha: TODO
+  - path: print_files/irkem_G_keycapsToPrint_v2.stl
+    sha: TODO
+
+  - path: print_files/irkem_accKeycap_v3.stl
+    sha: TODO
+    notes: "Accidental keycaps"
+
+  - path: print_files/irkem_hammerTips_v3.stl
+    sha: TODO
+    notes: "Hammer tip pads"
+
+  - path: print_files/irkem_PrStrEndBlck_v0.stl
+    sha: TODO
+    notes: "Printed string end routing block at keyboard end — clearly visible in photos"
+
+  - path: print_files/irkem_PrStrGd_v2.stl   # UNCERTAIN: v0 vs v1 vs v2
+    sha: TODO
+    notes: "Printed key-side string guides"
+
+  - path: print_files/irkem_TPUtip_v2.stl   # UNCERTAIN: which TPU tip version
+    sha: TODO
+    notes: "TPU hammer tip overlays (if used)"
+
+  # === LASER CUT PARTS ===
+  - path: laser_cut_files/irkem_clavinet_keyCombs_v5.svg
+    sha: TODO
+    notes: "Toothed key rail combs"
+
+  - path: laser_cut_files/irkem_HarpV2StrComb_v0.svg   # UNCERTAIN: v0 vs v1 for TC-002
+    sha: TODO
+    notes: "String spacing comb inside HarpV2 U-channel"
+
+  - path: laser_cut_files/irkem_Pivot_UpStop_combs_v1.svg
+    sha: TODO
+    notes: "Pivot and upstop combs visible at key front in detail photo"
+
+  - path: laser_cut_files/irkem_anvilAlgn_v2.svg   # UNCERTAIN: v0 vs v1 vs v2
+    sha: TODO
+    notes: "Anvil alignment template"
+
+  - path: laser_cut_files/irkem_stringThruEndPlate_v0.svg   # UNCERTAIN: confirm if used
+    sha: TODO
+    notes: "String-through end plate (if used alongside PrStrEndBlck)"
+
+  # === PCB / ELECTRONICS ===
+  # No PCB installed. Pickup was handmade CST bar (no dedicated design file).
+  # Wiring was test/temporary.
