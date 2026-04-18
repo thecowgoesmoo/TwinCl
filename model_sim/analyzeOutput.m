@@ -162,7 +162,7 @@ for p = 1:Np
     sf = a.spec{p}.f;
     st = a.spec{p}.t;
     imagesc(st, sf, 20*log10(abs(S) + eps)); axis xy;
-    set(gca, 'YScale', 'log'); ylim([20 min(20000, a.fs/2)]);
+    %set(gca, 'YScale', 'log'); ylim([20 min(20000, a.fs/2)]);
     hi = max(20*log10(abs(S(:)) + eps));
     caxis([hi-60, hi]);
     title(sprintf('%s pickup  -  spectrogram', name));
