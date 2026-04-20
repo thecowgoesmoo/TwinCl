@@ -1,5 +1,6 @@
 # TwinCl
 A modern clavinet design &amp; its digital twin
+The instrument is designed in OpenSCAD.  A digital model is built and simulated in MATLAB.  WAV files are bundled into sfz (sforzando sample player VST) patches for play-testing instrument parameter variations.  It is intended to be built from low-cost and easily-sourced materials.
 
 <img src="prototypes/TC-002/media/photos/TwinCl_v2_rightSide.jpeg" alt="Render">
 
