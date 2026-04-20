@@ -1,0 +1,52 @@
+{
+  "cfg_name": "v0",
+  "cfg_midi_range": [
+    29,
+    88
+  ],
+  "sample_notes": [
+    60,
+    72,
+    84
+  ],
+  "lokey": [
+    29,
+    65,
+    77
+  ],
+  "hikey": [
+    64,
+    76,
+    88
+  ],
+  "velocities_mps": 1,
+  "velocity_bands": [
+    1,
+    127
+  ],
+  "out_fs_Hz": 48000,
+  "sim_fs_Hz": 88200,
+  "duration_s": 2,
+  "amp_ref": 0.87247993722242978,
+  "global_peak": 1.0215145358769784,
+  "target_peak_dBFS": -1,
+  "pickups": [
+    {
+      "name": "bridge",
+      "x_m": 0.0426,
+      "aperture_m": 0.03
+    },
+    {
+      "name": "tangent",
+      "x_m": 0.1607,
+      "aperture_m": 0.03
+    }
+  ],
+  "cfl_min": 1.0805224916284619,
+  "render_date": "2026-04-19 21:30:12",
+  "git_commit": "6e93357",
+  "sfz_files": [
+    "/Users/rkmoore/Documents/openscad/TwinCl/model_sim/sfz_out/v0_20260419_213009_smoketest/v0_bridge.sfz",
+    "/Users/rkmoore/Documents/openscad/TwinCl/model_sim/sfz_out/v0_20260419_213009_smoketest/v0_tangent.sfz"
+  ]
+}

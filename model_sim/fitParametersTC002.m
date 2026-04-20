@@ -40,11 +40,9 @@ clip_opts = struct( ...
 % will start there.
 fit_spec = {
 %    name           dotted path                  lb         ub        transform
-    'sigma0',       'string.sigma0_Hz',          0.05,      0.7,      'lin';%3.0,      'lin';%'log';
-    'sigma1',       'string.sigma1_s',           0.001,    0.01,     'lin';%'log';%1e-5,      3e-2,     'log';
-    'x_excite',     'excite.x_m',                0.485,     0.494,    'lin';
-    'w_excite',     'excite.width_m',            0.005,     0.100,    'lin';
-    'v_excite',     'excite.v_peak_mps',         0.2,       3.0,      'lin';%'log';
+    'sigma0',       'string.sigma0_Hz',          0.05,      0.9,      'lin';%0.7,      'lin';
+    'sigma1',       'string.sigma1_s',           0.001,     0.01,     'lin';
+    'v_excite',     'excite.v_peak_mps',         0.2,       3.0,      'lin';
     'x_bridge',     'pickups(1).x_m',            0.020,     0.060,    'lin';
     'x_tangent',    'pickups(2).x_m',            0.140,     0.170,    'lin';
 };
@@ -57,7 +55,7 @@ cost_weights = struct( ...
     'env_window_s', 0.020);
 
 % --- Optimizer settings --------------------------------------------------
-n_seeds    = 100;%100;%8;            % set 1 for a single (fast) pass; 8-16 for overnight
+n_seeds    = 20;%100;%8;            % set 1 for a single (fast) pass; 8-16 for overnight
 max_iter   = 300;%300;          % per-seed iteration cap
 rand_seed  = 1;            % reproducibility for multi-start perturbation
 

@@ -24,9 +24,9 @@ k  = params.sim.dt;
 Np = numel(params.pickups);
 
 % --- Initialization -----------------------------------------------------
-% Start from rest; impart the velocity pulse by setting state at t = k.
-% Physical picture: at t = 0 the string is at rest; over the first dt
-% the excitation acts to give a displacement k*v0 at t = k.
+% Start from rest; impart the initial velocity gradient by setting state
+% at t = k.  Physical picture: at t = 0 the string is at rest; over the
+% first dt the excitation acts to give a displacement k*v0 at t = k.
 Upast = zeros(Ni, 1);         % U at t = 0
 Ucur  = k * sim.v0(:);        % U at t = k  (first-order consistent IC)
 

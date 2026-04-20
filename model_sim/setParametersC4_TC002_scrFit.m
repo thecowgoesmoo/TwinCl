@@ -50,13 +50,12 @@ params.pickups(2).name        = 'tangent';
 params.pickups(2).x_m         = 0.1607;%0.160;%0.120;
 params.pickups(2).aperture_m  = 0.030;
 
-%--- Excitation (Phase 1 placeholder for tangent strike) ------------------
-% A localized initial velocity pulse, spatially a raised cosine. When the
-% tangent contact model arrives in Phase 3, this section will be replaced.
-params.excite.type           = 'velocity_pulse';
-params.excite.x_m            = 0.492;%0.5450;%0.490;%0.060;    % strike point (10% from bridge)
-params.excite.width_m        = 0.0054;%0.01;%0.005;    % raised-cosine half-width
-params.excite.v_peak_mps     = 0.5079;%1.0;      % peak initial velocity
+%--- Excitation (tangent strike: rigid-body rotation initial condition) ----
+% The tangent simultaneously excites the string and becomes the nut at
+% x = L_m.  Initial condition: v(x,0) = v_peak * x/L_m, u(x,0) = 0.
+% See BUILDSIMULATOR for the implementation.
+params.excite.type           = 'rigid_rotation';
+params.excite.v_peak_mps     = 1.0;      % reset: prior value was for raised-cosine model
 
 %--- Simulation controls --------------------------------------------------
 params.sim.fs_Hz         = 88200;        % 2x audio, dispersion headroom

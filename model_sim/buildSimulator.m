@@ -84,18 +84,16 @@ sim.pickup_w_full = pw_full;
 sim.pickup_w      = pw_full(2:end-1, :);   % interior slice
 sim.pickup_h      = h;
 
-%--- Initial-velocity excitation (raised cosine) --------------------------
-ex  = params.excite;
-xs  = ex.x_m;
-ws  = ex.width_m;
-vpk = ex.v_peak_mps;
-rc  = zeros(N, 1);
-mask = abs(x - xs) <= ws;
-rc(mask) = 0.5 * (1 + cos(pi * (x(mask) - xs) / ws));
-v0_full = vpk * rc;
-
-% Force IC to respect boundaries (already zero there if strike interior)
-v0_full([1 end]) = 0;
+%--- Initial-velocity excitation (linear gradient / rigid-body rotation) --
+% Physical model: the tangent simultaneously strikes and becomes the nut at
+% x = L_m.  The string undergoes rigid-body rotation about the bridge
+% (x = 0), giving a linear initial velocity gradient:
+%   v(x, 0) = v_peak * x / L_m
+% from 0 at the bridge to v_peak just inside the nut end.
+% Boundary nodes (pinned) are held at zero.
+vpk     = params.excite.v_peak_mps;
+v0_full = vpk * (x / params.string.L_m);
+v0_full([1 end]) = 0;    % enforce pinned BCs
 sim.v0_full = v0_full;
 sim.v0      = v0_full(2:end-1);
 

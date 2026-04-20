@@ -1,0 +1,45 @@
+// ====================================================================
+// TwinCl simulated sample library
+//   config   : v0
+//   pickup   : tangent
+//   rendered : 2026-04-19 21:30
+//   git      : 6e93357
+//   sim fs   : 88200 Hz  (downsampled to 48000 Hz for WAV)
+//   length   : 2.00 s per note
+//   velocities: strike v_peak_mps = [1.00] m/s
+//   amp_ref_rms applied to every WAV: 0.87248
+// --------------------------------------------------------------------
+// One-shots: simulator has no damper model yet, so release is a
+// short linear amp-EG fade rather than a physical key-off response.
+// amp_veltrack=0: velocity dynamics live in the rendered WAVs.
+// ====================================================================
+
+<global>
+loop_mode=one_shot
+ampeg_release=0.020
+amp_veltrack=0
+
+<region>
+sample=samples/tangent_midi060_vel1.wav
+pitch_keycenter=60
+lokey=29
+hikey=64
+lovel=1
+hivel=127
+
+<region>
+sample=samples/tangent_midi072_vel1.wav
+pitch_keycenter=72
+lokey=65
+hikey=76
+lovel=1
+hivel=127
+
+<region>
+sample=samples/tangent_midi084_vel1.wav
+pitch_keycenter=84
+lokey=77
+hikey=88
+lovel=1
+hivel=127
+
