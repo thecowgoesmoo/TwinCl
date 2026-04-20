@@ -15,8 +15,8 @@
 // ====================================================================
 
 <global>
-loop_mode=one_shot
-ampeg_release=0.020
+loop_mode=no_loop
+ampeg_release=0.100
 amp_veltrack=0
 
 <region>
