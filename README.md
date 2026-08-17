@@ -1,9 +1,10 @@
 # TwinCl
 A modern clavinet design &amp; its digital twin
+The instrument is designed in OpenSCAD.  A digital model is built and simulated in MATLAB.  WAV files are bundled into sfz (sforzando sample player VST) patches for play-testing instrument parameter variations.  It is intended to be built from low-cost and easily-sourced materials.
 
-<img src="photos/TwinCl_v2_rightSide.jpeg" alt="Render">
+<img src="prototypes/TC-002/media/photos/TwinCl_v2_rightSide.jpeg" alt="Render">
 
-<img src="TwinCl_Render.png" alt="Render">
+<img src="prototypes/TC-001/media/photos/TwinCl_Render.png" alt="Render">
 
 Innovators like Leo Fender imbued the electric guitar with flexibility at a price-point that enabled a several subsequent decades of musical development.  The electromechanical pianos of the mid 20th century introduced new sounds as well, but many factors (including complexity & cost) kept them from displacing the acoustic piano as completely as the electric guitar did for its arched hollow predecessors.  The advent of the ROM-based electronic keyboards in the 1980's dropped keyboard manufacturing costs by an order of magnitude while also bringing more convincing piano sounds to consumers.  As a result, nearly all remaining electromechanical keyboard instruments are refurbished holdovers from the 1950's to 1970's.  
 
