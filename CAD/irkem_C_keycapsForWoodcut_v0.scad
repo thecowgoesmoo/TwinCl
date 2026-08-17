@@ -122,16 +122,16 @@ color("ivory") translate([k*oct+oct*6/7+xO,-wL+yO,0+zO]) cube([oct*1/7-gap,wL,kH
 //}
 
 for (i = [0,2,4,5,7,9,11]){//(kn-1)){//[0]){//(i = [0,2,4,5,7,9,11]){//[0:1:(n_keys-1)]){
-    translate([oset+oct*i/12+(oct*1/12-6.2)/2+xO,2+10+yO+12+3-4,-10+zO]) cube([6.2,bL-10-7-12-4+8,10]);
-    translate([0-0.2+oct*i/12,-3+13,44-1.8-2]) rotate([-90,0,0]) snap();
-    translate([0-0.2+oct*i/12,65,44-1.8-2]) rotate([-90,0,0]) snap();
+    translate([oset+oct*i/12+(oct*1/12-6.2)/2+xO+0*oct,2+10+yO+12+3-4,-10+zO]) cube([6.2,bL-10-7-12-4+8,10]);
+    //translate([0-0.2+oct*i/12+0*oct,-3+13,44-1.8-2]) rotate([-90,0,0]) snap();
+    //translate([0-0.2+oct*i/12+0*oct,65,44-1.8-2]) rotate([-90,0,0]) snap();
 }
 
 if (sharpFlag){
     for (i = [1,3,6,8,10]){//[0:1:(n_keys-1)]){
     //translate([oset+oct*i/12+(oct*1/12-6.2)/2+xO,2+10+yO,-10+zO]) cube([6.2,bL-10,10]);
-        translate([oset+oct*i/12+(oct*1/12-6.2)/2+xO,2+10+yO+12+3-4,-10+zO]) cube([6.2,bL-10-7-12-4+8,10]);
-translate([0-0.2+oct*i/12,-3+13,44-1.8-2]) rotate([-90,0,0]) snap();
-    translate([0-0.2+oct*i/12,65,44-1.8-2]) rotate([-90,0,0]) snap();
+        translate([oset+oct*i/12+(oct*1/12-6.2)/2+xO+0*oct,2+10+yO+12+3-4,-10+zO]) cube([6.2,bL-10-7-12-4+8,10]);
+    //translate([0-0.2+oct*i/12+0*oct,-3+13,44-1.8-2]) rotate([-90,0,0]) snap();
+    //translate([0-0.2+oct*i/12+0*oct,65,44-1.8-2]) rotate([-90,0,0]) snap();
 }
 }

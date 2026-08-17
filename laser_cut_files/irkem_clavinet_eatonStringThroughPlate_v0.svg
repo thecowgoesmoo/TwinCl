@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300mm"
+   height="200mm"
+   viewBox="0 0 300 200"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="irkem_clavinet_eatonStringThroughPlate_v0.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.4835225"
+     inkscape:cx="324.22832"
+     inkscape:cy="335.3505"
+     inkscape:window-width="2224"
+     inkscape:window-height="1270"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999999"
+       spacingy="0.99999999"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="10"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="518.36088"
+       y="12.133284"
+       width="247.38419"
+       height="130.76984"
+       id="rect1" />
+    <rect
+       x="518.3609"
+       y="12.133284"
+       width="181.3252"
+       height="124.7032"
+       id="rect1-5" />
+    <rect
+       x="518.3609"
+       y="12.133284"
+       width="247.38419"
+       height="130.76984"
+       id="rect1-7" />
+    <rect
+       x="518.3609"
+       y="12.133284"
+       width="181.99927"
+       height="122.00691"
+       id="rect1-7-5" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1"
+       transform="translate(4.6370492,5.3504414)">
+      <rect
+         x="0"
+         y="0"
+         width="206"
+         height="40"
+         rx="3"
+         ry="3"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="rect8611" />
+      <circle
+         cx="4.4110136"
+         cy="15.65921"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle3102" />
+      <circle
+         cx="11.947319"
+         cy="16.785486"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8472" />
+      <circle
+         cx="19.483625"
+         cy="17.91176"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8950" />
+      <circle
+         cx="27.019932"
+         cy="19.038034"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle1830" />
+      <circle
+         cx="34.556236"
+         cy="20.16431"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7838" />
+      <circle
+         cx="42.092545"
+         cy="21.290585"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle180" />
+      <circle
+         cx="49.628849"
+         cy="22.416859"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7510" />
+      <circle
+         cx="57.165154"
+         cy="23.543135"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle6879" />
+      <circle
+         cx="64.701462"
+         cy="24.669409"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7364" />
+      <circle
+         cx="72.237762"
+         cy="25.795683"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle623" />
+      <circle
+         cx="79.774071"
+         cy="26.921959"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9077" />
+      <circle
+         cx="87.310379"
+         cy="28.048233"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle4605" />
+      <circle
+         cx="94.84668"
+         cy="29.174507"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle5264" />
+      <circle
+         cx="102.38299"
+         cy="30.300783"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9407" />
+      <circle
+         cx="109.9193"
+         cy="31.427057"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9428" />
+      <circle
+         cx="117.4556"
+         cy="32.553333"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle2107" />
+      <circle
+         cx="124.99191"
+         cy="33.679607"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle4656" />
+      <circle
+         cx="132.52821"
+         cy="34.805882"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8076" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,6.3500003,5.2916669)"
+         id="text1"
+         style="font-size:24px;line-height:1.2;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1);display:inline;fill:none;stroke:#0000ff;stroke-width:0.377953"><tspan
+           x="563.96484"
+           y="33.179905"
+           id="tspan2">I don't know </tspan><tspan
+           x="553.08984"
+           y="61.979908"
+           id="tspan3">exactly what a </tspan><tspan
+           x="584.90039"
+           y="90.779911"
+           id="tspan4">prayer is.</tspan></text>
+    </g>
+    <g
+       id="g2"
+       transform="translate(5.0045298,48.09413)">
+      <rect
+         x="0"
+         y="0"
+         width="206"
+         height="40"
+         rx="3"
+         ry="3"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="rect8611-4" />
+      <circle
+         cx="4.4110136"
+         cy="15.65921"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle3102-2" />
+      <circle
+         cx="11.947319"
+         cy="16.785486"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8472-1" />
+      <circle
+         cx="19.483625"
+         cy="17.91176"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8950-9" />
+      <circle
+         cx="27.019932"
+         cy="19.038034"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle1830-2" />
+      <circle
+         cx="34.556236"
+         cy="20.16431"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7838-4" />
+      <circle
+         cx="42.092545"
+         cy="21.290585"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle180-5" />
+      <circle
+         cx="49.628849"
+         cy="22.416859"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7510-8" />
+      <circle
+         cx="57.165154"
+         cy="23.543135"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle6879-6" />
+      <circle
+         cx="64.701462"
+         cy="24.669409"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7364-2" />
+      <circle
+         cx="72.237762"
+         cy="25.795683"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle623-5" />
+      <circle
+         cx="79.774071"
+         cy="26.921959"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9077-1" />
+      <circle
+         cx="87.310379"
+         cy="28.048233"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle4605-3" />
+      <circle
+         cx="94.84668"
+         cy="29.174507"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle5264-9" />
+      <circle
+         cx="102.38299"
+         cy="30.300783"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9407-7" />
+      <circle
+         cx="109.9193"
+         cy="31.427057"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9428-3" />
+      <circle
+         cx="117.4556"
+         cy="32.553333"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle2107-7" />
+      <circle
+         cx="124.99191"
+         cy="33.679607"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle4656-5" />
+      <circle
+         cx="132.52821"
+         cy="34.805882"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8076-0" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,15.089055,3.5081864)"
+         id="text1-2"
+         style="font-size:24px;line-height:1.2;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1-5);display:inline;fill:none;stroke:#0000ff;stroke-width:0.377953"><tspan
+           x="547.27734"
+           y="33.179905"
+           id="tspan5">I do know </tspan><tspan
+           x="541.38867"
+           y="61.979908"
+           id="tspan6">how to pay </tspan><tspan
+           x="548.06836"
+           y="90.779911"
+           id="tspan7">attention,</tspan></text>
+    </g>
+    <g
+       id="g2-5"
+       transform="translate(4.9810199,90.574497)">
+      <rect
+         x="0"
+         y="0"
+         width="206"
+         height="40"
+         rx="3"
+         ry="3"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="rect8611-8" />
+      <circle
+         cx="4.4110136"
+         cy="15.65921"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle3102-5" />
+      <circle
+         cx="11.947319"
+         cy="16.785486"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8472-6" />
+      <circle
+         cx="19.483625"
+         cy="17.91176"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8950-7" />
+      <circle
+         cx="27.019932"
+         cy="19.038034"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle1830-9" />
+      <circle
+         cx="34.556236"
+         cy="20.16431"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7838-41" />
+      <circle
+         cx="42.092545"
+         cy="21.290585"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle180-6" />
+      <circle
+         cx="49.628849"
+         cy="22.416859"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7510-1" />
+      <circle
+         cx="57.165154"
+         cy="23.543135"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle6879-2" />
+      <circle
+         cx="64.701462"
+         cy="24.669409"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7364-0" />
+      <circle
+         cx="72.237762"
+         cy="25.795683"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle623-4" />
+      <circle
+         cx="79.774071"
+         cy="26.921959"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9077-4" />
+      <circle
+         cx="87.310379"
+         cy="28.048233"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle4605-5" />
+      <circle
+         cx="94.84668"
+         cy="29.174507"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle5264-97" />
+      <circle
+         cx="102.38299"
+         cy="30.300783"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9407-5" />
+      <circle
+         cx="109.9193"
+         cy="31.427057"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9428-39" />
+      <circle
+         cx="117.4556"
+         cy="32.553333"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle2107-0" />
+      <circle
+         cx="124.99191"
+         cy="33.679607"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle4656-55" />
+      <circle
+         cx="132.52821"
+         cy="34.805882"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8076-6" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,0.99955888,5.1133189)"
+         id="text1-3"
+         style="font-size:24px;line-height:1.2;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1-7);display:inline;fill:none;stroke:#0000ff;stroke-width:0.377953"><tspan
+           x="537.98438"
+           y="33.179905"
+           id="tspan8">how to fall down </tspan><tspan
+           x="533.71875"
+           y="61.979908"
+           id="tspan9">into the grass and </tspan><tspan
+           x="526.07812"
+           y="90.779911"
+           id="tspan10">be idle and blessed.</tspan></text>
+    </g>
+    <g
+       id="g2-5-6"
+       transform="translate(4.9672419,133.54269)">
+      <rect
+         x="0"
+         y="0"
+         width="206"
+         height="40"
+         rx="3"
+         ry="3"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="rect8611-8-0" />
+      <circle
+         cx="4.4110136"
+         cy="15.65921"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle3102-5-4" />
+      <circle
+         cx="11.947319"
+         cy="16.785486"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8472-6-2" />
+      <circle
+         cx="19.483625"
+         cy="17.91176"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8950-7-3" />
+      <circle
+         cx="27.019932"
+         cy="19.038034"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle1830-9-3" />
+      <circle
+         cx="34.556236"
+         cy="20.16431"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7838-41-7" />
+      <circle
+         cx="42.092545"
+         cy="21.290585"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle180-6-0" />
+      <circle
+         cx="49.628849"
+         cy="22.416859"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7510-1-0" />
+      <circle
+         cx="57.165154"
+         cy="23.543135"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle6879-2-1" />
+      <circle
+         cx="64.701462"
+         cy="24.669409"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle7364-0-0" />
+      <circle
+         cx="72.237762"
+         cy="25.795683"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle623-4-3" />
+      <circle
+         cx="79.774071"
+         cy="26.921959"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9077-4-0" />
+      <circle
+         cx="87.310379"
+         cy="28.048233"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle4605-5-0" />
+      <circle
+         cx="94.84668"
+         cy="29.174507"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle5264-97-3" />
+      <circle
+         cx="102.38299"
+         cy="30.300783"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9407-5-8" />
+      <circle
+         cx="109.9193"
+         cy="31.427057"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle9428-39-3" />
+      <circle
+         cx="117.4556"
+         cy="32.553333"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle2107-0-6" />
+      <circle
+         cx="124.99191"
+         cy="33.679607"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle4656-55-0" />
+      <circle
+         cx="132.52821"
+         cy="34.805882"
+         r="2"
+         style="fill:none;stroke:#ff0000;stroke-width:0.1"
+         id="circle8076-6-4" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,13.305574,4.2215787)"
+         id="text1-3-0"
+         style="font-size:24px;line-height:1.2;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1-7-5);shape-padding:20.2221;display:inline;fill:none;stroke:#0000ff;stroke-width:0.377953"><tspan
+           x="540.21582"
+           y="53.402561"
+           id="tspan12"><tspan
+             style="font-size:16px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal'"
+             id="tspan11">Oh fuck, there's a </tspan></tspan><tspan
+           x="543.93848"
+           y="82.202564"
+           id="tspan14"><tspan
+             style="font-size:16px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal'"
+             id="tspan13">few more strings.</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300mm"
+   height="200mm"
+   viewBox="0 0 300 200"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="irkem_bussBarTemplateFineTuner_v0.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.75217262"
+     inkscape:cx="396.18565"
+     inkscape:cy="455.3476"
+     inkscape:window-width="1856"
+     inkscape:window-height="1154"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999999"
+       spacingy="0.99999999"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="10"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       x="2.6458333"
+       y="2.6458333"
+       width="226.78572"
+       height="69.849998"
+       rx="3"
+       ry="3"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="rect7086" />
+    <circle
+       cx="8.1370335"
+       cy="6.6458335"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle671" />
+    <circle
+       cx="11.695831"
+       cy="13.577831"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle2148" />
+    <circle
+       cx="15.254631"
+       cy="20.509836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4924" />
+    <circle
+       cx="18.813437"
+       cy="27.441835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle9368" />
+    <circle
+       cx="22.372236"
+       cy="34.373837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle2477" />
+    <circle
+       cx="25.931036"
+       cy="41.305836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle757" />
+    <circle
+       cx="29.489836"
+       cy="48.237835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle3150" />
+    <circle
+       cx="33.048634"
+       cy="55.169834"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4270" />
+    <circle
+       cx="36.607437"
+       cy="62.101837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle399" />
+    <circle
+       cx="40.166237"
+       cy="69.033836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle9034" />
+    <circle
+       cx="43.725037"
+       cy="6.6458335"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle6705" />
+    <circle
+       cx="47.283836"
+       cy="13.577831"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7924" />
+    <circle
+       cx="50.842636"
+       cy="20.509836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7518" />
+    <circle
+       cx="54.401436"
+       cy="27.441835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle2127" />
+    <circle
+       cx="57.960236"
+       cy="34.373837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle9173" />
+    <circle
+       cx="61.519035"
+       cy="41.305836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7708" />
+    <circle
+       cx="65.077835"
+       cy="48.237835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4568" />
+    <circle
+       cx="68.636635"
+       cy="55.169834"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle8249" />
+    <circle
+       cx="72.195435"
+       cy="62.101837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle8925" />
+    <circle
+       cx="75.754234"
+       cy="69.033836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle6478" />
+    <circle
+       cx="79.313034"
+       cy="6.6458335"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle8694" />
+    <circle
+       cx="82.871834"
+       cy="13.577831"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle3792" />
+    <circle
+       cx="86.430634"
+       cy="20.509836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7832" />
+    <circle
+       cx="89.989433"
+       cy="27.441835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle5176" />
+    <circle
+       cx="93.548233"
+       cy="34.373837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle9019" />
+    <circle
+       cx="97.107033"
+       cy="41.305836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle8499" />
+    <circle
+       cx="100.66584"
+       cy="48.237835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7664" />
+    <circle
+       cx="104.22464"
+       cy="55.169834"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7064" />
+    <circle
+       cx="107.78345"
+       cy="62.101837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle2683" />
+    <circle
+       cx="111.34225"
+       cy="69.033836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7388" />
+    <circle
+       cx="114.90102"
+       cy="6.6458335"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle3991" />
+    <circle
+       cx="118.45982"
+       cy="13.577831"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle8326" />
+    <circle
+       cx="122.01863"
+       cy="20.509836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4963" />
+    <circle
+       cx="125.57743"
+       cy="27.441835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4320" />
+    <circle
+       cx="129.13622"
+       cy="34.373837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle2275" />
+    <circle
+       cx="132.69499"
+       cy="41.305836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4502" />
+    <circle
+       cx="136.2538"
+       cy="48.237835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle6717" />
+    <circle
+       cx="139.81259"
+       cy="55.169834"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle8375" />
+    <circle
+       cx="143.3714"
+       cy="62.101837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle9242" />
+    <circle
+       cx="146.93019"
+       cy="69.033836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle9303" />
+    <circle
+       cx="150.489"
+       cy="6.6458335"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4332" />
+    <circle
+       cx="154.04779"
+       cy="13.577831"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle1796" />
+    <circle
+       cx="157.6066"
+       cy="20.509836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4565" />
+    <circle
+       cx="161.16541"
+       cy="27.441835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle2270" />
+    <circle
+       cx="164.7242"
+       cy="34.373837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle3023" />
+    <circle
+       cx="168.283"
+       cy="41.305836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle2429" />
+    <circle
+       cx="171.8418"
+       cy="48.237835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle3147" />
+    <circle
+       cx="175.4006"
+       cy="55.169834"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle3071" />
+    <circle
+       cx="178.9594"
+       cy="62.101837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle2876" />
+    <circle
+       cx="182.5182"
+       cy="69.033836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7269" />
+    <circle
+       cx="186.077"
+       cy="6.6458335"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle5988" />
+    <circle
+       cx="189.6358"
+       cy="13.577831"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle6052" />
+    <circle
+       cx="193.1946"
+       cy="20.509836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle7421" />
+    <circle
+       cx="196.7534"
+       cy="27.441835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle3744" />
+    <circle
+       cx="200.31219"
+       cy="34.373837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle1239" />
+    <circle
+       cx="203.871"
+       cy="41.305836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle3770" />
+    <circle
+       cx="207.42979"
+       cy="48.237835"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle6645" />
+    <circle
+       cx="210.9886"
+       cy="55.169834"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4210" />
+    <circle
+       cx="214.54739"
+       cy="62.101837"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle4469" />
+    <circle
+       cx="218.1062"
+       cy="69.033836"
+       r="2"
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle9725" />
+  </g>
+</svg>

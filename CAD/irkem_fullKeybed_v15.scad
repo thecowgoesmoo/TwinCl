@@ -18,7 +18,7 @@ anvL = 15;//25.4*1;
 anvH = 25.4/8;
 
 //Rendering:
-//case();
+case();
 strings();
 harp();
 keys();

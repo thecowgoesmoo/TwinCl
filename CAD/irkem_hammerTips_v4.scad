@@ -4,7 +4,7 @@ extrWall = 1.7+tol;
 extrH = 12.9+tol;//12.6+tol;
 extrW = 10+tol;
 
-hammerY = 20;
+hammerY = 15;//20;
 hammerZ = 24;
 
 $fn = 20;
@@ -28,8 +28,12 @@ intersection(){
     translate([0,-10,-6]) scale([1,1,1.5]) rotate([-90,0,0]) cylinder(20,8,8);
 difference(){
     translate([-6.5,-10,-14]) cube([13,hammerY,16]);
-    union(){uChan();translate([-extrW/2,-hammerY/2,-extrH]) cube([extrW,hammerY/2,extrH]);
+    union(){uChan();translate([-extrW/2,-10,-extrH]) cube([extrW,10,extrH]);
 }
+//difference(){
+//    translate([-6.5,-10,-14]) cube([13,hammerY,16]);
+//    union(){uChan();translate([-extrW/2,-hammerY/2,-extrH]) cube([extrW,hammerY/2,extrH]);
+//}
 }
 }
 module uChan(){

@@ -21,9 +21,11 @@ function writeSfzFile(sfz_path, header, regions)
 %              .lovel           (int MIDI velocity, inclusive)
 %              .hivel           (int MIDI velocity, inclusive)
 %
-% The emitted SFZ uses <global> to set one-shot playback, a short release
-% fade, and amp_veltrack=0 so velocity-layer dynamics come from the
-% simulated WAV amplitudes rather than from SFZ velocity scaling.
+% The emitted SFZ uses <global> to set no-loop playback (so key-off
+% triggers the amp-EG release properly -- 'one_shot' ignores release in
+% most players), a moderate release fade, and amp_veltrack=0 so
+% velocity-layer dynamics come from the simulated WAV amplitudes rather
+% than from SFZ velocity scaling.
 %
 % See also: RENDERSFZLIBRARY.
 
@@ -48,15 +50,16 @@ fprintf(fid, '//   velocities: strike v_peak_mps = [%s] m/s\n', ...
                               'UniformOutput', false), ', '));
 fprintf(fid, '//   amp_ref_rms applied to every WAV: %.6g\n', header.amp_ref_rms);
 fprintf(fid, '// --------------------------------------------------------------------\n');
-fprintf(fid, '// One-shots: simulator has no damper model yet, so release is a\n');
-fprintf(fid, '// short linear amp-EG fade rather than a physical key-off response.\n');
+fprintf(fid, '// Release: simulator has no physical damper model yet, so key-off\n');
+fprintf(fid, '// triggers a short linear amp-EG fade as a stand-in.  loop_mode is\n');
+fprintf(fid, '// no_loop (not one_shot) so that release actually fires.\n');
 fprintf(fid, '// amp_veltrack=0: velocity dynamics live in the rendered WAVs.\n');
 fprintf(fid, '// ====================================================================\n\n');
 
 % --- Global block -------------------------------------------------------
 fprintf(fid, '<global>\n');
-fprintf(fid, 'loop_mode=one_shot\n');
-fprintf(fid, 'ampeg_release=0.020\n');
+fprintf(fid, 'loop_mode=no_loop\n');
+fprintf(fid, 'ampeg_release=0.100\n');
 fprintf(fid, 'amp_veltrack=0\n');
 fprintf(fid, '\n');
 
